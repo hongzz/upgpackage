@@ -1,0 +1,75 @@
+[BOARDINFO]
+modelname = WIFISPEAKER
+boardname = M3627_DEMO
+version = ACA_6.4.0.27_RC23d_6ddbb0_6.1
+
+[NOR_PARTITION0]
+name = boot_total_area
+offset = 0
+size = 196608
+
+[NOR_PARTITION1]
+name = dts
+offset = 196608
+size = 65536
+
+[NOR_PARTITION2]
+name = uboot
+offset = 262144
+size = 196608
+
+[NOR_PARTITION3]
+name = bootenv
+offset = 458752
+size = 65536
+
+[NOR_PARTITION4]
+name = deviceinfo
+offset = 524288
+size = 65536
+
+[NOR_PARTITION5]
+name = kernel
+offset = 589824
+size = 2621440
+
+[NOR_PARTITION6]
+name = see
+offset = 3211264
+size = 720896
+
+[NOR_PARTITION7]
+name = rootfs
+offset = 3932160
+size = 11010048
+
+[NOR_PARTITION8]
+name = userfs1
+offset = 14942208
+size = 1835008
+
+[NOR_PARTITION_COUNT]
+count = 9
+
+[PARTITION_COUNT]
+count = 0
+
+[UPGPART1]
+name = kernel
+offset = 589824
+size = 2621440
+file = main.ubo
+md5 = 8e3fdbdb07dc696def067b2c29d5795a
+flash = nor
+
+[UPGPART2]
+name = rootfs
+offset = 3932160
+size = 11010048
+file = rootfs.squashfs
+md5 = aeb21308de29c6a8c5b96b558eb93488
+flash = nor
+
+[UPGPART_COUNT]
+count = 2
+
