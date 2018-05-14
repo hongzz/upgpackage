@@ -1,5 +1,4 @@
 modelname=WIFISPEAKER
 boardname=M3627_DEMO
-version=ACA_6.4.0.27_RC23d_6ddbb0_6.1
-file=upgrade_ACA_6.4.0.27_RC23d_6ddbb0_6.1.zip
-directory=upgrade_ACA_6.4.0.27_RC23d_6ddbb0_6.1
+version=ACA_6.4.0.27_RC27_15fb78_7.0
+file=upgrade_ACA_6.4.0.27_RC27_15fb78_7.0.zip
