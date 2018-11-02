@@ -41,7 +41,7 @@ size = 720896
 [NOR_PARTITION7]
 name = rootfs
 offset = 3932160
-size = 11010048
+size = 10702848
 
 [NOR_PARTITION8]
 name = userfs1
@@ -57,7 +57,7 @@ count = 0
 [UPGPART1]
 name = rootfs
 offset = 3932160
-size = 11010048
+size = 10702848
 file =  rootfs.squashfs
 md5 = d41d8cd98f00b204e9800998ecf8427e01f1fe6d5
 flash = nor
