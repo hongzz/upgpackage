@@ -59,7 +59,7 @@ name = rootfs
 offset = 3932160
 size = 10702848
 file =  rootfs.squashfs
-md5 = d8a0332f2c438cd02d9d9ba01f1fe6d5
+md5 = d41d8cd98f00b204e9800998ecf8427e01f1fe6d5
 flash = nor
 
 [UPGPART_COUNT]
